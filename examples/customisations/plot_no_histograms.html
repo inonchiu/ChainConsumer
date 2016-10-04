@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>No Histograms &mdash; ChainConsumer 0.11 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../../_static/gallery.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="ChainConsumer 0.11 documentation" href="../../index.html"/>
+        <link rel="up" title="Examples" href="../index.html"/>
+        <link rel="next" title="Flips, Ticks and Size" href="plot_dont_flip.html"/>
+        <link rel="prev" title="Gaussian KDE and Extents" href="plot_kde_extents.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ChainConsumer
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.11
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Examples</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../plot_walk.html">Plot Walks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plot_introduction.html">Plot Contours</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plot_table.html">Plot Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#basic-usages">Basic Usages</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#customisations">Customisations</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="plot_kde_extents.html">Gaussian KDE and Extents</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">No Histograms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_dont_flip.html">Flips, Ticks and Size</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_one_chain.html">One Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_cloud_sigma.html">Cloud and Sigma Levels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_fewer_parameters.html">Truncated Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_linestyles.html">Changing Linestyles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_no_smooth.html">No Smoothing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_colours_shade.html">Colours and Shading</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_three_chains.html">Three Chains</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_rainbow_serif_bins.html">Rainbow and Custom Bins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="plot_lists.html">Using List Options</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../chain_api.html">Chain Consumer API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">ChainConsumer</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="../index.html">Examples</a> &raquo;</li>
+      
+    <li>No Histograms</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/examples/customisations/plot_no_histograms.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="no-histograms">
+<span id="sphx-glr-examples-customisations-plot-no-histograms-py"></span><h1>No Histograms<a class="headerlink" href="#no-histograms" title="Permalink to this headline">¶</a></h1>
+<p>Sometimes marginalised histograms are not needed.</p>
+<img alt="../../_images/sphx_glr_plot_no_histograms_001.png" class="align-center" src="../../_images/sphx_glr_plot_no_histograms_001.png" />
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numpy.random</span> <span class="kn">import</span> <span class="n">multivariate_normal</span><span class="p">,</span> <span class="n">normal</span><span class="p">,</span> <span class="n">seed</span>
+<span class="kn">from</span> <span class="nn">chainconsumer</span> <span class="kn">import</span> <span class="n">ChainConsumer</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">cov</span> <span class="o">=</span> <span class="n">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">multivariate_normal</span><span class="p">(</span><span class="n">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">3</span><span class="p">),</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="p">(</span><span class="n">cov</span> <span class="o">+</span> <span class="n">cov</span><span class="o">.</span><span class="n">T</span><span class="p">),</span> <span class="n">size</span><span class="o">=</span><span class="mi">100000</span><span class="p">)</span>
+
+    <span class="n">c</span> <span class="o">=</span> <span class="n">ChainConsumer</span><span class="p">()</span><span class="o">.</span><span class="n">add_chain</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="n">c</span><span class="o">.</span><span class="n">configure_general</span><span class="p">(</span><span class="n">plot_hists</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+
+    <span class="n">fig</span><span class="o">.</span><span class="n">set_size_inches</span><span class="p">(</span><span class="mf">2.5</span> <span class="o">+</span> <span class="n">fig</span><span class="o">.</span><span class="n">get_size_inches</span><span class="p">())</span>  <span class="c1"># Resize fig for doco. You don&#39;t need this.</span>
+</pre></div>
+</div>
+<p><strong>Total running time of the script:</strong> ( 0 minutes  0.480 seconds)</p>
+<div class="sphx-glr-download container">
+<a class="reference download internal" href="../../_downloads/plot_no_histograms.py" download=""><code class="xref download docutils literal"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_no_histograms.py</span></code></a></div>
+<div class="sphx-glr-download container">
+<a class="reference download internal" href="../../_downloads/plot_no_histograms.ipynb" download=""><code class="xref download docutils literal"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_no_histograms.ipynb</span></code></a></div>
+<p class="sphx-glr-signature"><a class="reference external" href="http://sphinx-gallery.readthedocs.io">Generated by Sphinx-Gallery</a></p>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="plot_dont_flip.html" class="btn btn-neutral float-right" title="Flips, Ticks and Size" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="plot_kde_extents.html" class="btn btn-neutral" title="Gaussian KDE and Extents" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016-2017, Samuel Hinton and contributors.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'0.11',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

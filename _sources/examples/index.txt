@@ -1,0 +1,455 @@
+.. _examples-index:
+
+========
+Examples
+========
+
+ChainConsumer can, at this point in time, do three distinct, useful tasks.
+The primary one is to create the likelihood surfaces and marginalised
+distributions that should be familiar. ChainConsumer can also plot
+the chains as walks to check convergence and mixing. Finally, ChainConsumer
+can also output LaTeX ready tables of parameter summaries that can be
+copied and pasted directly into a TeX document.
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="You can also plot the walks that your chains have undertaken.">
+
+.. only:: html
+
+    .. figure:: /examples/images/thumb/sphx_glr_plot_walk_thumb.png
+
+        :ref:`sphx_glr_examples_plot_walk.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/plot_walk
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="A trivial example using data from a multivariate normal.">
+
+.. only:: html
+
+    .. figure:: /examples/images/thumb/sphx_glr_plot_introduction_thumb.png
+
+        :ref:`sphx_glr_examples_plot_introduction.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/plot_introduction
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="You can also get LaTeX tables for parameter summaries.">
+
+.. only:: html
+
+    .. figure:: /examples/images/thumb/sphx_glr_plot_table_thumb.png
+
+        :ref:`sphx_glr_examples_plot_table.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/plot_table
+.. raw:: html
+
+    <div style='clear:both'></div>
+
+.. _basic_examples:
+
+Basic Usages
+------------
+
+Things like how to load data and how to use the primary functions of the plotting library.
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="You can plot multiple chains. They can even have different parameters!">
+
+.. only:: html
+
+    .. figure:: /examples/Basics/images/thumb/sphx_glr_plot_two_disjoint_chains_thumb.png
+
+        :ref:`sphx_glr_examples_Basics_plot_two_disjoint_chains.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/Basics/plot_two_disjoint_chains
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Plot truth values on top of your contours.">
+
+.. only:: html
+
+    .. figure:: /examples/Basics/images/thumb/sphx_glr_plot_truth_values_thumb.png
+
+        :ref:`sphx_glr_examples_Basics_plot_truth_values.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/Basics/plot_truth_values
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="How to use the built in convergence diagnostic tests!">
+
+.. only:: html
+
+    .. figure:: /examples/Basics/images/thumb/sphx_glr_plot_convergence_thumb.png
+
+        :ref:`sphx_glr_examples_Basics_plot_convergence.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/Basics/plot_convergence
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Demonstrates the different statistics you can use with ChainConsumer.">
+
+.. only:: html
+
+    .. figure:: /examples/Basics/images/thumb/sphx_glr_plot_statistics_thumb.png
+
+        :ref:`sphx_glr_examples_Basics_plot_statistics.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/Basics/plot_statistics
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Demonstrates the different ways of loading data!">
+
+.. only:: html
+
+    .. figure:: /examples/Basics/images/thumb/sphx_glr_plot_loading_data_thumb.png
+
+        :ref:`sphx_glr_examples_Basics_plot_loading_data.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/Basics/plot_loading_data
+.. raw:: html
+
+    <div style='clear:both'></div>
+
+.. _customisations_examples:
+
+Customisations
+--------------
+
+Here I have included some basic examples showing the different output you
+can get with ChainConsumer.
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Smooth marginalised distributions with a Gaussian KDE, and pick custom extents.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_kde_extents_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_kde_extents.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_kde_extents
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Sometimes marginalised histograms are not needed.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_no_histograms_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_no_histograms.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_no_histograms
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="You can stop the second parameter rotating in the plot if you prefer squares!">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_dont_flip_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_dont_flip.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_dont_flip
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Plot one chain with parameter names.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_one_chain_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_one_chain.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_one_chain
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Choose custom sigma levels and display point cloud.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_cloud_sigma_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_cloud_sigma.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_cloud_sigma
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="If you have a large model, you don't need to plot all parameters at once.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_fewer_parameters_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_fewer_parameters.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_fewer_parameters
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Customise the plot line styles.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_linestyles_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_linestyles.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_linestyles
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="We can turn off the default gaussian filter on marginalised distributions.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_no_smooth_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_no_smooth.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_no_smooth
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Choose custom colours and plot multiple chains with shading.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_colours_shade_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_colours_shade.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_colours_shade
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Plot three chains together. Name the chains to get a legend.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_three_chains_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_three_chains.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_three_chains
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Invoke rainbow colour scheme and choose how many bins to use with your data.">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_rainbow_serif_bins_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_rainbow_serif_bins.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_rainbow_serif_bins
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Utilise all the list options in the configuration!">
+
+.. only:: html
+
+    .. figure:: /examples/customisations/images/thumb/sphx_glr_plot_lists_thumb.png
+
+        :ref:`sphx_glr_examples_customisations_plot_lists.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/customisations/plot_lists
+.. raw:: html
+
+    <div style='clear:both'></div>
+
+
+
+.. container:: sphx-glr-download
+
+    :download:`Download all examples in Python source code: examples_python.zip </examples/examples_python.zip>`
+
+
+
+.. container:: sphx-glr-download
+
+    :download:`Download all examples in Jupyter notebook files: examples_jupyter.zip </examples/examples_jupyter.zip>`
+
+.. rst-class:: sphx-glr-signature
+
+    `Generated by Sphinx-Gallery <http://sphinx-gallery.readthedocs.io>`_
